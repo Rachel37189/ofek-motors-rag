@@ -1,0 +1,20 @@
+# embedding cache (large, rebuilt automatically)
+.cache/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# secrets: API keys live only in environment variables
+.env
+
+# eval output (python eval_retrieval.py --out results/...)
+results/
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
